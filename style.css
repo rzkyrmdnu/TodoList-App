@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9eceb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    background: #333;
+    position: absolute;
+    top: 20%;
+    border-radius: 10px;
+}
+
+.header {
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.todoList {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 325px;
+}
+
+.deleteTask {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #fff;
+    outline: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+
+.deleteTask:hover {
+  background-color: #b22222;
+}
+
+.pText {
+    background-color: #fff;
+    text-transform: capitalize;
+}
+
+.inputvalue {
+    display: flex;
+    margin: 5px;
+    margin-bottom: 60px;
+}
+
+.inputVal {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(69, 5, 187);
+    text-transform: capitalize;
+}
+
+.btn {
+    width: 100px;
+    background-color: #00bbff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #03110c;
+    transition: .5s;
+}
+
+.btn:hover {
+  background-color: #1E90FF;
+}
+
+.clearTask {
+   position: absolute;
+   bottom: 5px;
+   left: 15%;
+   background-color: #ff0000;
+   color: #fff;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+   transition: .5s;
+}
+
+.clearTask:hover {
+  background-color: #b22222;
+}
